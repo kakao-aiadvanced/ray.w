@@ -12,7 +12,7 @@ from typing import List
 from typing_extensions import TypedDict
 from langchain_core.documents import Document
 
-tavily = TavilyClient(api_key="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")
+tavily = TavilyClient(api_key="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")
 
 st.set_page_config(
     page_title="Research Assistant",
@@ -297,5 +297,5 @@ def main():
         st.session_state.clear()
         st.experimental_rerun()
 
-
-main()
+if __name__ == '__main__':
+    main()
